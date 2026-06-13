@@ -74,8 +74,6 @@ const choisirEmoji = (conditions, temperature) => {
 // Exemple : decrireMeteo("pluvieux", 8) → "Temps froid et pluvieux"
 
 const decrireMeteo = (conditions, temperature) => {
-  // Écris ton code ici
-  let description = ""
   if (temperature < 0) {
     description = "Temps glacial"
   } else if (temperature < 10) {
